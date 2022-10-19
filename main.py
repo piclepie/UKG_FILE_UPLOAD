@@ -60,7 +60,6 @@ def UKG_fileuploader(Employeeidlist,filepath):
         #submit
         driver.find_element(By.ID,'ctl00_Content_ButtonMultiFactDeliveryMethod').click()
         #get the access code from spreadsheet. wait 10 seconds
-        time.sleep(10)
         code = input("Enter verification code: ")
         print(code)
         #send code
